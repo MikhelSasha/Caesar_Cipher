@@ -1,0 +1,51 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+input {
+    letter-spacing: 2px;
+}
+input {
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    line-height: 40px;
+    text-indent: 12px;
+    font-size: 12px;
+    background-color: transparent;
+}
+button {
+    border: none;
+    color: #fff;
+    line-height: 40px;
+    padding: 0 25px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 10px;
+    background-color: #3EACA8;
+    letter-spacing: 2px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    cursor: pointer;
+}
+.section {
+	width: 500px;
+	margin: 0 auto;
+    text-align: left;
+    letter-spacing: 2px;
+    color: #888;
+}
+.section span {
+	font-weight: 700;
+    font-size: 18px;
+    color: #3EACA8;
+}
+.decrypt {
+	float: right;
+	margin-right: 30px;
+}
+.encrypt {
+	margin-left: 30px;
+}
